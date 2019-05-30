@@ -38,7 +38,7 @@ public class TransportClientAndroidRunner extends TransportClientTests
         super(protocol);
     }
 
-    @Parameterized.Parameters(name = "{0}_{1}")
+    @Parameterized.Parameters(name = "{0}")
     public static Collection inputsCommons() throws Exception
     {
         iotHubConnectionString = BuildConfig.IotHubConnectionString;
